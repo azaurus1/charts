@@ -11,10 +11,6 @@ sources:
   - https://github.com/benphelps/homepage
 maintainers:
   - name: azaurus1
-dependencies:
-  - name: common
-    repository: https://library-charts.k8s-at-home.com
-    version: 4.5.2
 annotations:
   artifacthub.io/changes: |
     - kind: added
