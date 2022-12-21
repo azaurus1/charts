@@ -1,17 +1,6 @@
 apiVersion: v2
-appVersion: 1.0.0
-description: homepage helm package
 name: homepage
-version: 1.2.2
-kubeVersion: ">=1.16.0-0"
-keywords:
-  - dashboard
-home: https://github.com/azaurus1/charts/tree/master/charts/stable/homepage
-sources:
-  - https://github.com/benphelps/homepage
-maintainers:
-  - name: azaurus1
-annotations:
-  artifacthub.io/changes: |
-    - kind: added
-      description: Initial version
+version: 0.1.0
+description: A Helm chart for deploying the homepage Docker image.
+home: https://github.com/benphelps/homepage
+appVersion: 1.0
